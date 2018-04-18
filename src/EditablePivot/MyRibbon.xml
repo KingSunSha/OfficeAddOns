@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui" onLoad="Ribbon_Load">
+  <ribbon  startFromScratch="false">
+    <tabs>
+      <tab id="TabEditablePivot" label="Editable Pivot" tag="EditablePivot" visible="true">
+        <group id="grpCommon" tag="Common" label="Common Actions" visible="true">
+          <button id="about" label="About" size="large" onAction="clickAction" getImage="getImage" supertip="About Editable Pivot"/>
+          <button id="configure" label="Configure" size="large" onAction="clickAction" getImage="getImage" getEnabled="getEnabled"
+                  supertip="Connect to a web server"/>
+        </group>
+      </tab>
+    </tabs>
+  </ribbon>
+</customUI>
