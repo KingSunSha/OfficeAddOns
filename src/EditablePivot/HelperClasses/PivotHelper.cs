@@ -168,7 +168,6 @@ namespace EditablePivot.BaseClasses
             // get source range for the pivot table
             string dataCol = null;
             int colIndex = 0;
-            int writableColIndex = 0;
             dataCol = Cell.DataField.SourceName;
             colIndex = ListObjectHelper.GetColumnIndex(sourceDataTable, dataCol);
 
